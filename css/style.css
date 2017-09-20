@@ -1,0 +1,152 @@
+
+/* General stuff, this applies to all pages. */
+
+body {
+	background: url(../css/grfx/bg.png) repeat-x;
+	background-position: 10px 0;
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+
+	margin: 0 0 0 27.50%;
+	width: 45%;
+}
+
+/* Top menu properties here. */
+
+.container {
+	background: url(../css/grfx/header.jpg) no-repeat;
+	min-width: 45%;
+	min-height: 268px;
+}
+
+.container header {
+	padding-left: 12.0px;
+}
+
+.container header h1 {
+	padding: 0;
+	margin: 0;
+
+	padding-top: 8px;
+	font-weight: 800;
+}
+
+.container header p {
+	padding: 0;
+	margin: 0;
+}
+
+/* Navigation bar properties here. */
+
+.container nav ul {
+	list-style: none;
+	font-size: 12px;
+
+	padding: 0;
+	margin: 145px 22px 0px 22px;
+}
+
+.container nav ul li {
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline;
+}
+
+.container nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+/* All stuff from the 'index page' goes down here. */
+
+main {
+	background-color: white;
+	max-width: 800px;
+}
+
+main .page h2 {
+	margin-top: 0;
+	padding: 12.5px 0 0 17.5px;
+
+	color: #444;
+	font-weight: 800;
+}
+
+main .page p {
+	clear: left;
+	padding: 17.5px;
+}
+
+/* All id's that have to do with images. */
+
+#vloot0, #vloot1, #vloot3, #vloot4, #vloot6, #vloot7, #vloot8, #vloot10, #vloot11 {
+	float: left;
+}
+
+#vloot2, #vloot5, #vloot9, #vloot12 {
+	float: right;
+}
+
+#vloot0 {
+	padding: 0 17.5px 14px 0;
+}
+
+#vloot1 {
+	padding: 0 17.5px 20px 0;
+}
+
+#vloot2 {
+	padding: 20px 17.5px 20px 25px;
+}
+
+#vloot3 {
+	padding: 20px 20px 10px 0;
+
+}
+
+#vloot4 {
+	padding: 0 20px 15px 0;
+
+}
+
+#vloot5 {
+	padding: 0 0 17.5px 17.5px;
+}
+
+
+#vloot6 {
+	padding: 20px 20px 0 0;
+}
+
+
+#vloot7 {
+	padding: 20px 20px 0 0;
+
+}
+
+#vloot8 {
+	padding: 0 20px 20px 0;
+}
+
+
+#vloot9 {
+	padding: 20px 0 20px 20px;
+}
+
+
+#vloot10 {
+	padding: 20px 20px 0 0;
+}
+
+#vloot11 {
+	padding: 0 20px 15px 0; 
+}
+
+
+#vloot12 {
+	padding: 20px 0 0 20px;
+
+}
+
+
+
+
